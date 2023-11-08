@@ -33,7 +33,7 @@ Some features here:
 - Users can navigate through mulitple web pages
 
 ## Setup
-The requirements for this project are simple and do not require much setup. You will need a code editor of your choice and link Bootstrap in the head tag. I use VSCode because HTML, CSS are built in, which makes setup easier. There are no dependencies, only additional plugins if you would like to set them up. If you are unsure, then I would say Prettier+ along with Live Server. Live Sercer is important because it allows you to see your website in your browser. You can get all the plugins in VSCode in the side menu, it looks like blocks. To sum everything up, all you need is a code editor and a plugin to allow you to see your website.
+The requirements for this project are simple and do not require much setup. You will need a code editor of your choice and link Bootstrap in the head tag. I use VSCode because HTML, CSS are built in, which makes setup easier. There are no dependencies, only additional plugins if you would like to set them up. If you are unsure, then I would say Prettier+ along with Live Server. Live Server is important because it allows you to see your website in your browser. You can get all the plugins in VSCode in the side menu, it looks like blocks. To sum everything up, all you need is a code editor and a plugin to allow you to see your website.
 
 ## Project Status
 Project is: _in progress_ 
