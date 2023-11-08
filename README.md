@@ -7,7 +7,6 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [To Do](#todo)
 <!-- * [License](#license) -->
