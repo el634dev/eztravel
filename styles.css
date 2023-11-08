@@ -1,0 +1,60 @@
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-image: url("./images/boat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* Navbar */
+.container-fluid,
+.about-nav {
+    font-size: 1.15rem;
+}
+
+.nav-item,
+.about-nav {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Feature Cards */
+.card-section {
+    object-fit: contain;
+}
+
+.submit-button {
+    font-size: 1.15rem;
+    width: 10%;
+    padding: 0.50em;
+}
+
+/* Text Area*/
+.text-area {
+    margin-left: 320px;
+}
+
+/* Footer section */
+footer {
+    background-color: #4b4b4b;
+}
+
+footer h6 {
+    margin-top: 12px;
+    font-size: 1.15rem;
+    font-weight: normal;
+    margin-right: 100px;
+}
+
+.footer-link {
+   text-decoration: none;
+}

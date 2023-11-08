@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezTravel - Where Traveling is Made Easy</title>
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+      <!-- Bootswatch Theme -->
+      <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+     <!--CSS-->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+        <div class="container-fluid p-3">
+            <a class="navbar-brand" href="#">
+                <img src="./images/nav-logo.png" 
+                    alt="ezTravel Logo" width="200" height="40" class="d-inline-block align-text-top">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+                <button class="btn text-white bg-dark submit-button" type="submit">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+    <!-- End of Navbar -->
+    <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="jumbotron text-center mb-0 bg-primary">
+            <h1 class="text-white">Making your next trip easy with ezTravel</h1>
+            <button class="btn text-white bg-dark mt-2">Try it Today</button>
+        </div>
+    </section>
+    <!-- End of Hero Section -->
+    <!-- Card Section -->
+    <section class="card-section">
+      <div class="row row-cols-1 row-cols-md-3 g-3 mt-4 mb-3">
+          <div class="col">
+            <div class="card">
+              <img src="./images/lodging.jpg" class="card-img-top" alt="Hotel in snow capped mountains">
+              <div class="card-body">
+                <h5 class="card-title">Make Lodging a Breeze</h5>
+                <p class="card-text">Make lodging a breeze enter a city to see a list of places to stay based on your budget and interests all with one click.</p>
+              </div>
+            </div>
+          </div> 
+          <!---Card 2-->
+          <div class="col">
+            <div class="card">
+              <img src="./images/memory.jpg" class="card-img-top" alt="Two people embracing in front of the Saint Basil Church">
+              <div class="card-body">
+                <h5 class="card-title">Help create memories ez peasy</h5>
+                <p class="card-text">Making memories is ez peasy with ezTravel just see what's in your hotel area and what's on your budget.</p>
+              </div>
+            </div>
+          </div>
+          <!--Card 3-->
+          <div class="col">
+            <div class="card">
+              <img src="./images/dining.jpg" class="card-img-top" alt="Table in restaurant">
+              <div class="card-body">
+                <h5 class="card-title">Dining made Easy</h5>
+                <p class="card-text">Dining while traveling is made easier with ezTravel, enter your budget and pick a restaurant.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+    <!-- End of Card Section -->
+    <hr class="hr"/>
+    <!--Featurette-->
+    <!-- <hr class="featurette-divider"> -->
+    <!-- <!~~ First Featurette ~~> -->
+    <!-- <div class="featurette" id="about"> -->
+        <!-- <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/200x200"> -->
+        <!-- <h2 class="featurette-heading">This First Heading -->
+            <!-- <span class="text-muted">Will Catch Your Eye</span> -->
+        <!-- </h2> -->
+        <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
+    <!-- </div> -->
+    <!-- <hr class="featurette-divider"> -->
+    <!-- Newsletter Sign Up Section -->
+    <section>
+        <form action="#" class="text-center mt-4 mb-3">
+          <h1>Sign Up to Be Notified First!</h1>
+          <div class="mb-3 d-flex justify-content-center mt-4">
+            <input type="email" placeholder="Email" class="form-control mb-2 mr-sm-2 w-50" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3 d-flex justify-content-center mt-3">
+            <input type="text" class="form-control mb-2 mr-sm-2 w-50" placeholder="Name">
+          </div>
+          <div id="emailHelp" class="form-text mb-2">We'll never share your info with anyone else.</div> 
+          <button type="submit" class="btn btn-primary mb-2 submit-button">Submit</button>
+        </form>
+    </section>
+    <!-- End of Newsletter Sign Up Section -->
+    <!-- Footer Section -->
+    <footer>
+      <div class="p-5 text-white container-fluid d-flex justify-content-between">
+          <a href="index.html">
+            <img src="./images/nav-logo.png" 
+              alt="ezTravel Logo" width="200" height="40" class="d-inline-block align-text-top">
+          </a>
+          <h6><a href="index.html" class="footer-link text-white">Home</a></h6>
+          <h6><a href="about.html" class="footer-link text-white">About</a></h6>
+          <h6><a href="faq.html" class="footer-link text-white">FAQ</a></h6>
+          <h6>&copy; 2023</h6>
+      </div>
+    </footer>
+    <!-- End of Footer Section -->
+</body>
+</html>
