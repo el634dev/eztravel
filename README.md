@@ -24,9 +24,7 @@
 - Vanilla CSS could also override default template styling
   
 ## Technologies Used
-- HTML - version 5
-- CSS - version 3
-- Bootstrap - version 5
+[![My Skills](https://skillicons.dev/icons?i=flask,html,css,bootstrap)](https://skillicons.dev)
 
 ## Features
 Some features here:
