@@ -1,7 +1,7 @@
 # eztravel
 > Site where people can purchase hotels, dining and see places to go based on their budgets
 > 
-> Live demo [_here_](https://el634dev.github.io/eztravel/). <!-- If you have the project hosted somewhere, include the link here. -->
+<!-- > Live demo [_here_](https://el634dev.github.io/eztravel/). --> <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
